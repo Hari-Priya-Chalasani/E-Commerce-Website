@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-div {
+    background-color: rgb(38, 37, 37);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+.top-a:hover{
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(2.5);
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: serif;
+    font-style: italic; 
+}
+.top {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.item-nav {
+    margin-left: auto; 
+}
+
+.title {
+    margin-right: auto;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: serif;
+    font-style: italic; 
+}
+.title:hover{
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.2);
+    box-shadow: rgb(255, 165, 0) 5px 5px;
+}
+
+#search-bar {
+    padding: 8px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(38, 37, 37);
+    margin-right: 10px; 
+}
+
+/* Add some margin to create space between the search bar and other items */
+div:not(.search-container) > a {
+    margin-right: 10px;
+}
+.box {
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-item img {
+    height: 450px;
+    width: 1050px;  
+    object-fit: fill; 
+    object-position: center;
+}
+.heading {
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: serif;
+    font-style: italic; 
+    padding-top: 50px;
+}
+.item-card{
+    height: 450px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.item-card:hover{
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+.item-image{
+    height: 260px;
+    width: 280px;
+    padding: 10px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.card-h3{
+    background-color: orange;
+    width: 300px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: serif;
+    font-style: italic;
+}
+.card-h4{
+    color: rgb(192, 52, 52);
+}
+.card-b{
+    background-color: white;
+    border: 1px solid orange;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: serif;
+}
+.card-b:hover{
+    border: none;
+    background-color: orange;
+    color: white;
+}
+.items-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer-h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: serif;
+    font-style: italic; 
+}
+.footer-h4{
+    text-align: center;
+    font-size: 18px;
+}
+.logo-f{
+    width: 30px;
+    height: 30px;
+}
+.social-media{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+}
+.logo-f:hover{ 
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(2.5);
+}
+.details{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.head{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: serif;
+
+}
+.div:hover{
+    color: orange;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.2);
+}
+.copy-right{
+    text-align: center;
+    padding: 20px;
+    padding-top: 40px;
+}
+.result-button{
+    background-color: white;
+    color: black;
+    border: 2px solid orange;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: serif;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.result-button:hover{
+    border: none;
+    background-color: orange;
+    color: white;
+}
+.result-tab{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    z-index: 2;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: serif;
+}
